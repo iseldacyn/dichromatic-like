@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "dichromatic"
+let colors_name = "dichromatic-like"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=232 ctermfg=252 cterm=NONE guibg=#000000 guifg=#D0D0D0 gui=NONE
